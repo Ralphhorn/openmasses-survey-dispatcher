@@ -9,7 +9,7 @@ import random
 @app.route('/')
 @app.route('/index')
 def hello_world():
-    return render_template('survey.html', title='OpenMasses Survey', user=None)
+    return render_template('survey_edit.html', title='OpenMasses Survey', user=None)
 
 
 def new_user(user_id):
